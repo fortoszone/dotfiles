@@ -1,0 +1,8 @@
+optimus-manager-qt &
+plank &
+nm-applet &
+tint2 &
+picom -b &
+volumeicon &
+sh ~/.fehbg &
+
