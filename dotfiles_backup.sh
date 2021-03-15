@@ -6,7 +6,7 @@ timestamp() {
 # files to backup
 cp ~/.zshrc ~/dotfiles/.zshrc
 cp ~/.fehbg ~/dotfiles/.fehbg
-cp ~/.config/openbox ~/dotfiles/.config/openbox
+cp -R ~/.config/openbox ~/dotfiles/.config/openbox
 cp -R ~/.config/kitty ~/dotfiles/.config/kitty
 cp -R ~/.config/dunst/dunstrc ~/dotfiles/.config/dunst/dunstrc
 cp -R ~/.config/obmenu-generator ~/dotfiles/.config/obmenu-generator
