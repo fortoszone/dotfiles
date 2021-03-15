@@ -1,3 +1,3 @@
-![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+![alt text](https://github.com/fortoszone/dotfiles/blob/main/screenshot.png?raw=true)
 
-Credits to owl4ce and DenshiVideo
+Inspired by to [owl4ce](https://github.com/owl4ce/dotfiles) and [DenshiVideo](https://www.youtube.com/watch?v=1fIhHAjQ-_U)
