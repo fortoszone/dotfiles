@@ -102,10 +102,10 @@ our $SCHEMA = [
     {sep => 'Power Menu'},
 
     ## Shutdown
-    {item => ['gksu systemctl suspend',   'Suspend',   'system-suspend']},
-    {item => ['gksu systemctl hibernate', 'Hibernate', 'system-hibernate']},
-    {item => ['gksu systemctl reboot',    'Reboot',    'system-restart']},
-    {item => ['gksu systemctl poweroff',  'Shutdown',  'gnome-session']},
+    {item => ['systemctl suspend',   'Suspend',   'system-suspend']},
+    {item => ['systemctl hibernate', 'Hibernate', 'system-hibernate']},
+    {item => ['systemctl reboot',    'Reboot',    'system-restart']},
+    {item => ['systemctl poweroff',  'Shutdown',  'gnome-session']},
 
     {sep => undef},
 

@@ -412,12 +412,12 @@
     </keybind>
     <keybind key="W-S-Next">
       <action name="Execute">
-        <command>brightnessctl s 100-</command>
+        <command>brightnessctl s 50-</command>
       </action>
     </keybind>
     <keybind key="W-S-Prior">
       <action name="Execute">
-        <command>brightnessctl s 100+</command>
+        <command>brightnessctl s 50+</command>
       </action>
     </keybind>
     <keybind key="W-Prior">
