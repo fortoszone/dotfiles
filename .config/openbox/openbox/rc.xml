@@ -335,6 +335,12 @@
     <keybind key="XF86AudioPrev">
       <action name="Execute"><execute>dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Previous</execute></action>
     </keybind>
+    <keybind key="XF86MonBrightnessDown">
+      <action name="Execute"><execute>brightnessctl s 50-</execute></action>
+    </keybind>
+    <keybind key="XF86MonBrightnessUp">
+      <action name="Execute"><execute>brightnessctl s 50+</execute></action>
+    </keybind>
 
     <!-- Keybindings for window switching with the arrow keys -->
     <keybind key="W-S-Right">
