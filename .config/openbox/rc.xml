@@ -155,7 +155,7 @@
      Many programs reserve space automatically, but you can use this in other
      cases. -->
   <margins>
-    <top>50</top>
+    <top>45</top>
     <bottom>20</bottom>
     <left>20</left>
     <right>20</right>
@@ -317,6 +317,31 @@
         <to>4</to>
       </action>
     </keybind>
+    <keybind key="XF86AudioLowerVolume">
+      <action name="Execute"><execute>amixer -q sset Master 3%-</execute></action>
+    </keybind>
+    <keybind key="XF86AudioRaiseVolume">
+      <action name="Execute"><execute>amixer -q sset Master 3%+</execute></action>
+    </keybind>
+    <keybind key="XF86AudioMute">
+      <action name="Execute"><execute>amixer -q -D pulse sset Master toggle</execute></action>
+    </keybind>
+    <keybind key="XF86AudioPlay">
+      <action name="Execute"><execute>dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.PlayPause</execute></action>
+    </keybind>
+    <keybind key="XF86AudioNext">
+      <action name="Execute"><execute>dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Next</execute></action>
+    </keybind>
+    <keybind key="XF86AudioPrev">
+      <action name="Execute"><execute>dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Previous</execute></action>
+    </keybind>
+    <keybind key="XF86MonBrightnessDown">
+      <action name="Execute"><execute>brightnessctl s 50-</execute></action>
+    </keybind>
+    <keybind key="XF86MonBrightnessUp">
+      <action name="Execute"><execute>brightnessctl s 50+</execute></action>
+    </keybind>
+
     <!-- Keybindings for window switching with the arrow keys -->
     <keybind key="W-S-Right">
       <action name="DirectionalCycleWindows">
@@ -373,7 +398,7 @@
           <enabled>true</enabled>
           <name>File Manager</name>
         </startupnotify>
-        <command>thunar</command>
+        <command>pcmanfm</command>
       </action>
     </keybind>
     <keybind key="W-3">
@@ -412,12 +437,12 @@
     </keybind>
     <keybind key="W-S-Next">
       <action name="Execute">
-        <command>brightnessctl s 100-</command>
+        <command>brightnessctl s 50-</command>
       </action>
     </keybind>
     <keybind key="W-S-Prior">
       <action name="Execute">
-        <command>brightnessctl s 100+</command>
+        <command>brightnessctl s 50+</command>
       </action>
     </keybind>
     <keybind key="W-Prior">
@@ -437,6 +462,11 @@
     </keybind>
     <keybind key="W-q">
       <action name="Close"/>
+    </keybind>
+    <keybind key="W-Home">
+      <action name="Execute">
+        <command>scrot</command>
+      </action>
     </keybind>
   </keyboard>
   <mouse>

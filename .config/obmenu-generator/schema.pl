@@ -30,7 +30,7 @@ my $editor = $CONFIG->{editor};
 our $SCHEMA = [
 
     #          COMMAND                 LABEL              ICON
-    {item => ['thunar',       'File Manager', 'system-file-manager']},
+    {item => ['pcmanfm',       'File Manager', 'system-file-manager']},
     {item => ['kitty',            'Terminal',     'utilities-terminal']},
     {item => ['xdg-open http://', 'Web Browser',  'web-browser']},
 
@@ -102,10 +102,14 @@ our $SCHEMA = [
     {sep => 'Power Menu'},
 
     ## Shutdown
-    {item => ['gksu systemctl suspend',   'Suspend',   'system-suspend']},
-    {item => ['gksu systemctl hibernate', 'Hibernate', 'system-hibernate']},
-    {item => ['gksu systemctl reboot',    'Reboot',    'system-restart']},
-    {item => ['gksu systemctl poweroff',  'Shutdown',  'gnome-session']},
+    {item => ['systemctl suspend',   'Suspend',   'system-suspend']},
+    {item => ['systemctl hibernate', 'Hibernate', 'system-hibernate']},
+    {item => ['systemctl reboot',    'Reboot',    'system-restart']},
+    {item => ['systemctl poweroff',  'Shutdown',  'gnome-session']},
+
+    {sep => undef},
+
+    {item => ['scrot', 'Screenshot', 'screenshot']},
 
 
     ## This uses the 'oblogout' menu

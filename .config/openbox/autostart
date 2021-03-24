@@ -5,4 +5,5 @@ tint2 &
 picom -b &
 volumeicon &
 sh ~/.fehbg &
+xfce4-power-manager &
 
