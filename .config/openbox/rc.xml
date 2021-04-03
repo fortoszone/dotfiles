@@ -121,7 +121,7 @@
 
        use obconf if you want to change these without having to log out
        and back in -->
-    <number>4</number>
+    <number>6</number>
     <firstdesk>1</firstdesk>
     <names>
       <name>1</name>
@@ -129,6 +129,7 @@
       <name>3</name>
       <name>4</name>
       <name>5</name>
+      <name>6</name>
     </names>
     <popupTime>875</popupTime>
     <!-- The number of milliseconds to show the popup for when switching
@@ -229,26 +230,6 @@
         <wrap>no</wrap>
       </action>
     </keybind>
-    <keybind key="W-F1">
-      <action name="GoToDesktop">
-        <to>1</to>
-      </action>
-    </keybind>
-    <keybind key="W-F2">
-      <action name="GoToDesktop">
-        <to>2</to>
-      </action>
-    </keybind>
-    <keybind key="W-F3">
-      <action name="GoToDesktop">
-        <to>3</to>
-      </action>
-    </keybind>
-    <keybind key="W-F4">
-      <action name="GoToDesktop">
-        <to>4</to>
-      </action>
-    </keybind>
     <keybind key="W-d">
       <action name="ToggleShowDesktop"/>
     </keybind>
@@ -317,31 +298,56 @@
         <to>4</to>
       </action>
     </keybind>
+    <keybind key="W-S-5">
+      <action name="GoToDesktop">
+        <to>5</to>
+      </action>
+    </keybind>
+    <keybind key="W-S-6">
+      <action name="GoToDesktop">
+        <to>6</to>
+      </action>
+    </keybind>
     <keybind key="XF86AudioLowerVolume">
-      <action name="Execute"><execute>amixer -q sset Master 3%-</execute></action>
+      <action name="Execute">
+        <execute>amixer -q sset Master 3%-</execute>
+      </action>
     </keybind>
     <keybind key="XF86AudioRaiseVolume">
-      <action name="Execute"><execute>amixer -q sset Master 3%+</execute></action>
+      <action name="Execute">
+        <execute>amixer -q sset Master 3%+</execute>
+      </action>
     </keybind>
     <keybind key="XF86AudioMute">
-      <action name="Execute"><execute>amixer -q -D pulse sset Master toggle</execute></action>
+      <action name="Execute">
+        <execute>amixer -q -D pulse sset Master toggle</execute>
+      </action>
     </keybind>
     <keybind key="XF86AudioPlay">
-      <action name="Execute"><execute>dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.PlayPause</execute></action>
+      <action name="Execute">
+        <execute>dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.PlayPause</execute>
+      </action>
     </keybind>
     <keybind key="XF86AudioNext">
-      <action name="Execute"><execute>dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Next</execute></action>
+      <action name="Execute">
+        <execute>dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Next</execute>
+      </action>
     </keybind>
     <keybind key="XF86AudioPrev">
-      <action name="Execute"><execute>dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Previous</execute></action>
+      <action name="Execute">
+        <execute>dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Previous</execute>
+      </action>
     </keybind>
     <keybind key="XF86MonBrightnessDown">
-      <action name="Execute"><execute>brightnessctl s 50-</execute></action>
+      <action name="Execute">
+        <execute>brightnessctl s 50-</execute>
+      </action>
     </keybind>
     <keybind key="XF86MonBrightnessUp">
-      <action name="Execute"><execute>brightnessctl s 50+</execute></action>
+      <action name="Execute">
+        <execute>brightnessctl s 50+</execute>
+      </action>
     </keybind>
-
     <!-- Keybindings for window switching with the arrow keys -->
     <keybind key="W-S-Right">
       <action name="DirectionalCycleWindows">
@@ -361,11 +367,6 @@
     <keybind key="W-S-Down">
       <action name="DirectionalCycleWindows">
         <direction>down</direction>
-      </action>
-    </keybind>
-    <keybind key="W-S-e">
-      <action name="Execute">
-        <command>bash -c '~/.config/rofi/scripts/powermenu.sh'</command>
       </action>
     </keybind>
     <!-- Keybindings for running applications -->
