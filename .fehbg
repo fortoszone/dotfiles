@@ -1,2 +1,2 @@
 #!/bin/sh
-feh --no-fehbg --bg-scale '/home/fort0/wallhaven-ox6x9l.jpg' 
+feh --no-fehbg --bg-fill '/home/fort0/Downloads/code_javacafe.png' 
