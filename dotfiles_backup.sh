@@ -13,11 +13,12 @@ cp -R ~/.config/obmenu-generator ~/dotfiles/.config
 cp -R ~/.config/picom/picom.conf ~/dotfiles/.config/picom/picom.conf
 cp -R ~/.config/rofi ~/dotfiles/.config/rofi
 cp -R ~/.config/tint2/tint2rc ~/dotfiles/.config/tint2/tint2rc
+cp -R ~/.config/Google/AndroidStudio4.2 ~/dotfiles/AndroidStudio4.2
 
 # pull & push
 if [[ `git status --porcelain` ]]; then
     git pull origin master
     git add .
-    git commit -m "Update: $(timestamp)"
+    git commit -m "update: $(timestamp)"
     git push
 fi
