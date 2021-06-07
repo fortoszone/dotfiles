@@ -1,0 +1,6 @@
+<application>
+  <component name="com.codertainment.scrcpy.controller.model.ScrcpyProps">
+    <option name="maxFps" value="60" />
+    <option name="showTouches" value="true" />
+  </component>
+</application>

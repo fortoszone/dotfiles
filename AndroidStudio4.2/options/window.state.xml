@@ -1,0 +1,49 @@
+<application>
+  <component name="DimensionService">
+    <location key="WELCOME_SCREEN.0.0.1366.768" x="683" y="300" />
+    <location key="find.popup.0.0.1366.768" x="20" y="45" />
+    <size key="GridCell.Tab.0.left.0.0.1366.768" width="1280" height="168" />
+    <size key="GridCell.Tab.0.center.0.0.1366.768" width="1280" height="168" />
+    <size key="GridCell.Tab.0.right.0.0.1366.768" width="1280" height="168" />
+    <size key="GridCell.Tab.0.bottom.0.0.1366.768" width="1280" height="168" />
+    <size key="find.popup.0.0.1366.768" width="611" height="703" />
+    <size key="GridCell.Tab.1.left.0.0.1366.768" width="1320" height="200" />
+    <size key="GridCell.Tab.1.center.0.0.1366.768" width="1320" height="200" />
+    <size key="GridCell.Tab.1.right.0.0.1366.768" width="1320" height="200" />
+    <size key="GridCell.Tab.1.bottom.0.0.1366.768" width="1320" height="200" />
+  </component>
+  <component name="WindowManager">
+    <frame x="20" y="45" width="1326" height="703" extendedState="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+    </layout>
+  </component>
+  <component name="WindowStateApplicationService">
+    <state x="278" y="0" width="804" height="712" key="#Plugins" timestamp="1615161823510">
+      <screen x="0" y="0" width="1366" height="731" />
+    </state>
+    <state x="278" y="0" width="804" height="712" key="#Plugins/0.0.1366.731" timestamp="1615161823510" />
+    <state x="422" y="141" width="424" height="466" key="FileChooserDialogImpl" timestamp="1620403181883">
+      <screen x="20" y="45" width="1326" height="703" />
+    </state>
+    <state x="422" y="141" width="424" height="466" key="FileChooserDialogImpl/20.45.1326.703" timestamp="1620403181883" />
+    <state x="422" y="145" width="424" height="466" key="FileChooserDialogImpl/20.50.1326.698" timestamp="1615728759483" />
+    <state x="884" y="554" width="389" height="199" key="ProcessPopupWindow" timestamp="1622625226962">
+      <screen x="20" y="45" width="1326" height="703" />
+    </state>
+    <state x="890" y="530" width="400" height="206" key="ProcessPopupWindow/0.0.1366.731" timestamp="1615162125819" />
+    <state x="884" y="554" width="389" height="199" key="ProcessPopupWindow/20.45.1326.703" timestamp="1622625226962" />
+    <state x="884" y="556" width="389" height="197" key="ProcessPopupWindow/20.50.1326.698" timestamp="1615728136124" />
+    <state x="678" y="347" key="WELCOME_SCREEN" timestamp="1622625445146">
+      <screen x="20" y="45" width="1326" height="703" />
+    </state>
+    <state x="683" y="320" key="WELCOME_SCREEN/0.0.1366.731" timestamp="1615161823512" />
+    <state x="678" y="347" key="WELCOME_SCREEN/20.45.1326.703" timestamp="1622625445146" />
+  </component>
+</application>

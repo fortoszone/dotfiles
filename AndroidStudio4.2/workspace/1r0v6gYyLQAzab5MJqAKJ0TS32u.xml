@@ -1,0 +1,194 @@
+<project version="4">
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="-1" />
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>swDaily</find>
+      <find>MappingHelper</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/src/main/java/com/lovanto/sosdev/view/SettingActivity.kt" />
+      </list>
+    </option>
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" x="20" y="45" width="1326" height="703" extendedState="7" />
+  <component name="ProjectView">
+    <navigator currentView="AndroidView" proportions="" version="1" />
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="SosDev" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="e9137016:NonAndroidModuleNode" />
+            </path>
+            <path>
+              <item name="SosDev" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="e9137016:NonAndroidModuleNode" />
+              <item name="tests" type="f7eae187:NonAndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="SosDev" type="1abcf292:AndroidViewProjectNode" />
+              <item name="consumerapp" type="e9137016:NonAndroidModuleNode" />
+            </path>
+            <path>
+              <item name="SosDev" type="1abcf292:AndroidViewProjectNode" />
+              <item name="consumerapp" type="e9137016:NonAndroidModuleNode" />
+              <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="SosDev" type="1abcf292:AndroidViewProjectNode" />
+              <item name="consumerapp" type="e9137016:NonAndroidModuleNode" />
+              <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
+              <item name="consumerapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SosDev" type="1abcf292:AndroidViewProjectNode" />
+              <item name="consumerapp" type="e9137016:NonAndroidModuleNode" />
+              <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
+              <item name="consumerapp" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SosDev" type="1abcf292:AndroidViewProjectNode" />
+              <item name="consumerapp" type="e9137016:NonAndroidModuleNode" />
+              <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
+              <item name="consumerapp" type="462c0819:PsiDirectoryNode" />
+              <item name="viewModel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SosDev" type="1abcf292:AndroidViewProjectNode" />
+              <item name="consumerapp" type="e9137016:NonAndroidModuleNode" />
+              <item name="tests" type="f7eae187:NonAndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="SosDev" type="1abcf292:AndroidViewProjectNode" />
+              <item name="consumerapp" type="e9137016:NonAndroidModuleNode" />
+              <item name="tests" type="f7eae187:NonAndroidSourceTypeNode" />
+              <item name="consumerapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SosDev" type="1abcf292:AndroidViewProjectNode" />
+              <item name="consumerapp" type="e9137016:NonAndroidModuleNode" />
+              <item name="tests" type="f7eae187:NonAndroidSourceTypeNode" />
+              <item name="consumerapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SosDev" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane" />
+    </panes>
+  </component>
+  <component name="ToolWindowManager">
+    <layout>
+      <window_info id="Commit" order="4" />
+      <window_info anchor="bottom" id="Services" order="6" show_stripe_button="false" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.25859374" />
+      <window_info anchor="right" id="Gradle" order="0" />
+      <window_info anchor="bottom" id="Problems View" order="2" />
+      <window_info id="Captures" order="0" weight="0.25" />
+      <window_info anchor="right" id="Layout Validation" order="2" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="TODO" order="1" />
+      <window_info id="Build Variants" order="6" side_tool="true" />
+      <window_info id="Resources Explorer" order="5" />
+      <window_info anchor="bottom" id="Find" order="7" />
+      <window_info anchor="right" id="scrcpy" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="3" />
+      <window_info anchor="bottom" id="Project Problems" order="5" />
+      <window_info anchor="bottom" id="Build" order="8" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lovanto/sosdev/view/SettingActivity.kt">
+      <provider selected="true" editor-type-id="android-source-code" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lovanto/sosdev/alarm/AlarmReceiver.kt">
+      <provider selected="true" editor-type-id="android-source-code" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-262" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-118" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lovanto/sosdev/model/DataUsers.kt">
+      <provider selected="true" editor-type-id="android-source-code" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lovanto/sosdev/model/Favourite.kt">
+      <provider selected="true" editor-type-id="android-source-code" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lovanto/sosdev/db/DatabaseHelper.kt">
+      <provider selected="true" editor-type-id="android-source-code" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lovanto/sosdev/db/DatabaseSosDev.kt">
+      <provider selected="true" editor-type-id="android-source-code" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lovanto/sosdev/helper/MappingHelper.kt">
+      <provider selected="true" editor-type-id="android-source-code" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lovanto/sosdev/view/FavActivity.kt">
+      <provider selected="true" editor-type-id="android-source-code" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lovanto/sosdev/provider/FavouriteProvider.kt">
+      <provider selected="true" editor-type-id="android-source-code" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumerapp/src/main/java/com/lovanto/consumerapp/db/DatabaseSosDev.kt">
+      <provider selected="true" editor-type-id="android-source-code" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lovanto/sosdev/db/FavouriteHelper.kt">
+      <provider selected="true" editor-type-id="android-source-code" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lovanto/sosdev/viewModel/FavouriteAdapter.kt">
+      <provider selected="true" editor-type-id="android-source-code" />
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core/1.3.3/57f8b1a2d7c5816e5b93e39f75b9e341d2045d1b/kotlinx-coroutines-core-1.3.3-sources.jar!/commonMain/Builders.common.kt">
+      <provider selected="true" editor-type-id="android-source-code" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumerapp/src/main/java/com/lovanto/consumerapp/view/MainActivity.kt">
+      <provider selected="true" editor-type-id="android-source-code" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumerapp/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="24" lean-forward="true" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

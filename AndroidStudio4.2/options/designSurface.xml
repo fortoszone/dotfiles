@@ -1,0 +1,22 @@
+<application>
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../layout/custom_preview.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable-v24/rounded_corner_view.xml" value="0.2" />
+        <entry key="app/src/main/res/drawable/rounded_corner_view.xml" value="0.10729166666666666" />
+        <entry key="app/src/main/res/layout/acitivity_movie_detail.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_detail.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.2795275590551181" />
+        <entry key="app/src/main/res/layout/activity_tv_show_detail.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_following.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_movie.xml" value="0.18489583333333334" />
+        <entry key="app/src/main/res/layout/fragment_tvshow.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/gh_user_row.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/item_row.xml" value="0.25" />
+        <entry key="consumerapp/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="consumerapp/src/main/res/layout/fav_user_row.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+</application>

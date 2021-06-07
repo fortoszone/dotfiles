@@ -1,0 +1,2 @@
+com.android.layoutlib.native
+net.antelle.intellij-xcode-dark-theme
